@@ -1,0 +1,862 @@
+{
+  "id": "cardFilters_0.0",
+  "type": "configdoc",
+  "values": [
+    {
+      "keyName": "cardFilters",
+      "content": {
+          "defaultOptionStates": [18,0,0],
+          "defaultExpandedOptionStates": [34,0,0],
+          "textSearchFormattedQuery": "([{0} Card Name] like '%{1}%' OR [{0} Attack Name] like '%{1}%' OR [{0} Attack Name 2] like '%{1}%' OR [{0} Attack Name 3] like '%{1}%' OR [{0} Attack Name 4] like '%{1}%' OR [{0} Attack Text] like '%{1}%' OR [{0} Attack Text 2] like '%{1}%' OR [{0} Attack Text 3] like '%{1}%' OR [{0} Attack Text 4] like '%{1}%')",
+          "queriesByCategory": {
+            "Pokemon": "([category] = 1)",
+            "Trainer": "([category] = 2)",
+            "Energy":  "([category] = 3)"
+          },
+          "cardFiltersData":
+            {
+              "groupType": "MULTI_GROUP",
+              "filterLogicOperator": 
+                {
+                  "queryPart": "AND"
+                },
+              "multiGroup": [
+                {
+                  "groupTitleId": "ui_filters_show_cards",
+                  "groupType": "SINGLE_GROUP",
+                  "allowNoneSelected": false,
+                  "useUniqueSelection": true,
+                  "numShownDefault": 2,
+                  "applicableCategories": [
+                    "Pokemon",
+                    "Trainer",
+                    "Energy"
+                  ],
+                  "filterLogicOperator": {
+                    "queryPart": "OR"
+                  },
+                  "filterGroupOptions": [
+                    {
+                      "queryPart": "[quantity] >= 0",
+                      "optionId": "ui_filters_all_cards"
+                    },
+                    {
+                      "queryPart": "[quantity] > 0",
+                      "optionId": "ui_filters_owned_cards"
+                    },
+                    {
+                      "queryPart": "[quantity] = 0",
+                      "optionId": "ui_filters_unowned_cards"
+                    }
+                  ]
+                },
+                {
+                  "groupTitleId": "ui_filters_format",
+                  "groupType": "SINGLE_GROUP_GENERATED_FORMAT",
+                  "allowNoneSelected": false,
+                  "useUniqueSelection": true,
+                  "applicableCategories": [
+                    "Pokemon",
+                    "Trainer",
+                    "Energy"
+                  ],
+                  "filterLogicOperator": {
+                    "queryPart": "OR"
+                  },
+                  "numShownDefault": 2,
+                  "filterGroupOptions": null
+                },
+                {
+                  "groupTitleId": "ui_filters_pokemon_energy",
+                  "groupType": "SINGLE_GROUP_ENERGY",
+                  "applicableCategories": [
+                    "Pokemon"
+                  ],
+                  "filterLogicOperator": {
+                    "queryPart": "OR"
+                  },
+                  "numShownDefault": 4,
+                  "filterGroupOptions": [
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%G%'",
+                      "optionId": "type_grass"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%R%'",
+                      "optionId": "type_fire"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%W%'",
+                      "optionId": "type_water"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%L%'",
+                      "optionId": "type_lightning"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%P%'",
+                      "optionId": "type_psychic"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%F%'",
+                      "optionId": "type_fighting"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%D%'",
+                      "optionId": "type_dark"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%M%'",
+                      "optionId": "type_steel"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%Y%'",
+                      "optionId": "type_fairy"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%N%'",
+                      "optionId": "type_dragon"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%C%'",
+                      "optionId": "type_normal"
+                    }
+                  ]
+                },
+                {
+                  "groupTitleId": "ui_filters_pokemon_weakness",
+                  "groupType": "SINGLE_GROUP_ENERGY",
+                  "applicableCategories": [
+                    "Pokemon"
+                  ],
+                  "filterLogicOperator": {
+                    "queryPart": "OR"
+                  },
+                  "numShownDefault": 4,
+                  "filterGroupOptions": [
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%G%'",
+                      "optionId": "type_grass"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%R%'",
+                      "optionId": "type_fire"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%W%'",
+                      "optionId": "type_water"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%L%'",
+                      "optionId": "type_lightning"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%P%'",
+                      "optionId": "type_psychic"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%F%'",
+                      "optionId": "type_fighting"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%D%'",
+                      "optionId": "type_dark"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%M%'",
+                      "optionId": "type_steel"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%Y%'",
+                      "optionId": "type_fairy"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%N%'",
+                      "optionId": "type_dragon"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Weakness Type] like '%C%'",
+                      "optionId": "type_normal"
+                    }
+                  ]
+                },
+                {
+                  "groupTitleId": "ui_filters_pokemon_resistance",
+                  "groupType": "SINGLE_GROUP_ENERGY",
+                  "applicableCategories": [
+                    "Pokemon"
+                  ],
+                  "filterLogicOperator": {
+                    "queryPart": "OR"
+                  },
+                  "numShownDefault": 4,
+                  "filterGroupOptions": [
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%G%'",
+                      "optionId": "type_grass"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%R%'",
+                      "optionId": "type_fire"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%W%'",
+                      "optionId": "type_water"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%L%'",
+                      "optionId": "type_lightning"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%P%'",
+                      "optionId": "type_psychic"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%F%'",
+                      "optionId": "type_fighting"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%D%'",
+                      "optionId": "type_dark"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%M%'",
+                      "optionId": "type_steel"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%Y%'",
+                      "optionId": "type_fairy"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%N%'",
+                      "optionId": "type_dragon"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Resistance Type] like '%C%'",
+                      "optionId": "type_normal"
+                    }
+                  ]
+                },
+                {
+                  "groupTitleId": "ui_filters_stage",
+                  "groupType": "SINGLE_GROUP",
+                  "applicableCategories": ["Pokemon"],
+                  "filterLogicOperator": 
+                    {"queryPart":  "OR"}
+                  ,
+                  "numShownDefault": 5,
+                  "filterGroupOptions": [{
+                    "queryPart": "[EN Format] like '%0%'",
+                    "optionId": "ui_filters_stage_basic"
+                  },
+                    {
+                      "queryPart": "[EN Format] like '%Y%'",
+                      "optionId": "ui_filters_stage_basic_v"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%1%'",
+                      "optionId": "ui_filters_stage_1"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%2%'",
+                      "optionId": "ui_filters_stage_2"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%^%'",
+                      "optionId": "ui_filters_stage_vmax"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%+%'",
+                      "optionId": "ui_filters_stage_restored"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%B%'",
+                      "optionId": "ui_filters_stage_break"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%M%'",
+                      "optionId": "ui_filters_stage_mega"
+                    }
+                  ]
+                },
+                {
+                  "groupTitleId": "ui_filters_attributes",
+                  "groupType": "SINGLE_GROUP",
+                  "applicableCategories": ["Pokemon"],
+                  "filterLogicOperator": 
+                    {
+                      "queryPart": "OR"
+                    }
+                  ,
+                  "numShownDefault": 4,
+                  "filterGroupOptions": [{
+                    "queryPart": "([EN Attack Name] like '%[[]Ability[]]%' OR [EN Attack Name 2] like '%[[]Ability[]]%' or [EN Attack Name 3] like '%[[]Ability[]]%' or [EN Attack Name 3] like '%[[]Ability[]]%')",
+                    "optionId": "ui_filters_poke_attribs_ability"
+                  },
+                    {
+                      "queryPart": "[EN Format] like '%G%'",
+                      "optionId": "ui_filters_poke_attribs_gx"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%E%'",
+                      "optionId": "ui_filters_poke_attribs_ex"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%P%'",
+                      "optionId": "ui_filters_attribs_prism"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%#%'",
+                      "optionId": "ui_filters_attribs_singlestrike"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%!%'",
+                      "optionId": "ui_filters_attribs_rapidstrike"
+                    },
+                    {
+                      "queryPart": "[Ultra Beast?] like '%y%' OR [Ultra Beast?] like '%True%'",
+                      "optionId": "ui_filters_poke_attribs_ultrabeast"
+                    },
+                    {
+                      "queryPart": "([EN Attack Name] like '%[[]Poké-Power[]]%' OR [EN Attack Name 2] like '%[[]Poké-Power[]]%' or [EN Attack Name 3] like '%[[]Poké-Power[]]%' or [EN Attack Name 3] like '%[[]Poké-Power[]]%')",
+                      "optionId": "ui_filters_poke_attribs_pokepower"
+                    },
+                    {
+                      "queryPart": "([EN Attack Name] like '%[[]Poké-Body[]]%' OR [EN Attack Name 2] like '%[[]Poké-Body[]]%' or [EN Attack Name 3] like '%[[]Poké-Body[]]%' or [EN Attack Name 3] like '%[[]Poké-Body[]]%')",
+                      "optionId": "ui_filters_poke_attribs_pokebody"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%U%'",
+                      "optionId": "ui_filters_attribs_tagteam"
+                    },
+                    {
+                      "queryPart": "(([EN Attack Name] like '%α%' OR [EN Attack Name 2] like '%α%' or [EN Attack Name 3] like '%α%' or [EN Attack Name 3] like '%α%') or ([EN Attack Name] like '%Ω%' OR [EN Attack Name 2] like '%Ω%' or [EN Attack Name 3] like '%α%' or [EN Attack Name 3] like '%Ω%') or ([EN Attack Name] like '%Δ%' OR [EN Attack Name 2] like '%Δ%' or [EN Attack Name 3] like '%Δ%' or [EN Attack Name 3] like '%Δ%') or ([EN Attack Name] like '%θ%' OR [EN Attack Name 2] like '%θ%' or [EN Attack Name 3] like '%θ%' or [EN Attack Name 3] like '%θ%'))",
+                      "optionId": "ui_filters_poke_attribs_ancienttrait"
+                    },
+                    {
+                      "queryPart": "[cardId] like '%xy5-5%' and [EN Card Name] like '%aqua%'",
+                      "optionId": "ui_filters_attribs_aqua"
+                    },
+                    {
+                      "queryPart": "[cardId] like '%xy5-5%' and [EN Card Name] like '%magma%'",
+                      "optionId": "ui_filters_attribs_magma"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%&%'",
+                      "optionId": "ui_filters_attribs_plasma"
+                    }
+                  ]
+                },
+                {
+                  "groupTitleId": "ui_filters_type",
+                  "groupType": "SINGLE_GROUP",
+                  "applicableCategories": ["Trainer"],
+                  "filterLogicOperator":
+                  {
+                    "queryPart": "OR"
+                  },
+                  "numShownDefault": 3,
+                  "filterGroupOptions": [{
+                    "queryPart": "[EN Format] like '%I%'",
+                    "optionId": "ui_filters_trainer_type_item"
+                  },
+                    {
+                      "queryPart": "[EN Format] like '%S%'",
+                      "optionId": "ui_filters_trainer_type_supporter"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%A%'",
+                      "optionId": "ui_filters_trainer_type_stadium"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%T%'",
+                      "optionId": "ui_filters_trainer_type_tool"
+                    }
+                  ]
+                },
+                {
+                  "groupTitleId": "ui_filters_attributes",
+                  "groupType": "SINGLE_GROUP",
+                  "applicableCategories": [
+                    "Trainer"
+                  ],
+                  "filterLogicOperator": {
+                    "queryPart": "OR"
+                  },
+                  "numShownDefault": 5,
+                  "filterGroupOptions": [
+                    {
+                      "queryPart": "[EN Format] like '%P%'",
+                      "optionId": "ui_filters_attribs_prism"
+                    },
+                    {
+                      "queryPart": "[cardId] like '%xy5-5%' and [EN Card Name] like '%aqua%'",
+                      "optionId": "ui_filters_attribs_aqua"
+                    },
+                    {
+                      "queryPart": "[cardId] like '%xy5-5%' and [EN Card Name] like '%magma%''",
+                      "optionId": "ui_filters_attribs_magma"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%&%'",
+                      "optionId": "ui_filters_attribs_plasma"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%U%'",
+                      "optionId": "ui_filters_attribs_tagteam"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%=%'",
+                      "optionId": "ui_filters_trainer_attribs_ace"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%#%'",
+                      "optionId": "ui_filters_attribs_singlestrike"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%!%'",
+                      "optionId": "ui_filters_attribs_rapidstrike"
+                    }
+                  ]
+                },
+                {
+                  "groupTitleId": "ui_filters_type",
+                  "groupType": "SINGLE_GROUP_ENERGY",
+                  "applicableCategories": [
+                    "Energy"
+                  ],
+                  "filterLogicOperator": {
+                    "queryPart": "OR"
+                  },
+                  "numShownDefault": 4,
+                  "filterGroupOptions": [
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%G%'",
+                      "optionId": "type_grass"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%R%'",
+                      "optionId": "type_fire"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%W%'",
+                      "optionId": "type_water"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%L%'",
+                      "optionId": "type_lightning"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%P%'",
+                      "optionId": "type_psychic"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%F%'",
+                      "optionId": "type_fighting"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%D%'",
+                      "optionId": "type_dark"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%M%'",
+                      "optionId": "type_steel"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%Y%'",
+                      "optionId": "type_fairy"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%N%'",
+                      "optionId": "type_dragon"
+                    },
+                    {
+                      "optionType": "OPTION_ENERGY_TOGGLE",
+                      "queryPart": "[EN Type] like '%C%'",
+                      "optionId": "type_normal"
+                    }
+                  ]
+                },
+                {
+                  "groupTitleId": "ui_filters_attributes",
+                  "groupType": "SINGLE_GROUP",
+                  "applicableCategories": [
+                    "Energy"
+                  ],
+                  "filterLogicOperator": {
+                    "queryPart": "OR"
+                  },
+                  "numShownDefault": 3,
+                  "filterGroupOptions": [
+                    {
+                      "queryPart": "[EN Format] like '%R%'",
+                      "optionId": "ui_filters_energy_attribs_basic"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%N%'",
+                      "optionId": "ui_filters_energy_attribs_special"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%P%'",
+                      "optionId": "ui_filters_attribs_prism"
+                    },
+                    {
+                      "queryPart": "[cardId] like '%xy5-5%' and [EN Card Name] like '%aqua%'",
+                      "optionId": "ui_filters_attribs_aqua"
+                    },
+                    {
+                      "queryPart": "[cardId] like '%xy5-5%' and [EN Card Name] like '%magma%'",
+                      "optionId": "ui_filters_attribs_magma"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%&%'",
+                      "optionId": "ui_filters_attribs_plasma"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%#%'",
+                      "optionId": "ui_filters_attribs_singlestrike"
+                    },
+                    {
+                      "queryPart": "[EN Format] like '%!%'",
+                      "optionId": "ui_filters_attribs_rapidstrike"
+                    }
+                  ]
+                },
+                {
+                  "groupTitleId": "",
+                  "groupType": "MULTI_GROUP",
+                  "filterLogicOperator": {
+                    "queryPart": "OR"
+                  },
+                  "multiGroup": [
+                    {
+                      "groupTitleId": "tcg_swsh",
+                      "groupType": "SINGLE_GROUP",
+                      "applicableCategories": [
+                        "Pokemon",
+                        "Trainer",
+                        "Energy"
+                      ],
+                      "filterLogicOperator": {
+                        "queryPart": "OR"
+                      },
+                      "numShownDefault": 4,
+                      "filterGroupOptions": [
+                        {
+                        "queryPart": "[cardId] like '%swshbsp_%'",
+                        "optionId": "tcg_swshbsp"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%swsh1_%'",
+                          "optionId": "tcg_swsh1"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%swsh2_%'",
+                          "optionId": "tcg_swsh2"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%swsh3_%'",
+                          "optionId": "tcg_swsh3"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%swsh3-5_%'",
+                          "optionId": "tcg_swsh3-5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%swsh4_%'",
+                          "optionId": "tcg_swsh4"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%swsh4-5_%'",
+                          "optionId": "tcg_swsh4-5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%swsh5_%'",
+                          "optionId": "tcg_swsh5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%swsh6_%'",
+                          "optionId": "tcg_swsh6"
+                        }
+                      ]
+                    },
+                    {
+                      "groupTitleId": "tcg_sm",
+                      "groupType": "SINGLE_GROUP",
+                      "applicableCategories": [
+                        "Pokemon",
+                        "Trainer",
+                        "Energy"
+                      ],
+                      "filterLogicOperator": {
+                        "queryPart": "OR"
+                      },
+                      "numShownDefault": 4,
+                      "filterGroupOptions": [
+                        {
+                          "queryPart": "[cardId] like '%smbsp_%'",
+                          "optionId": "tcg_smbsp"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm1_%'",
+                          "optionId": "tcg_sm1"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm2_%'",
+                          "optionId": "tcg_sm2"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm3_%'",
+                          "optionId": "tcg_sm3"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm3-5_%'",
+                          "optionId": "tcg_sm3-5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm4_%'",
+                          "optionId": "tcg_sm4"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm5_%'",
+                          "optionId": "tcg_sm5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm6_%'",
+                          "optionId": "tcg_sm6"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm7_%'",
+                          "optionId": "tcg_sm7"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm7-5_%'",
+                          "optionId": "tcg_sm7-5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm8_%'",
+                          "optionId": "tcg_sm8"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm9_%'",
+                          "optionId": "tcg_sm9"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%gum_%'",
+                          "optionId": "tcg_gum"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm10_%'",
+                          "optionId": "tcg_sm10"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm11_%'",
+                          "optionId": "tcg_sm11"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm11-5_%'",
+                          "optionId": "tcg_sm11-5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%sm12_%'",
+                          "optionId": "tcg_sm12"
+                        }
+                      ]
+                    },
+                    {
+                      "groupTitleId": "tcg_xy",
+                      "groupType": "SINGLE_GROUP",
+                      "applicableCategories": [
+                        "Pokemon",
+                        "Trainer",
+                        "Energy"
+                      ],
+                      "filterLogicOperator": {
+                        "queryPart": "OR"
+                      },
+                      "numShownDefault": 4,
+                      "filterGroupOptions": [
+                        {
+                          "queryPart": "[cardId] like '%xybsp_%'",
+                          "optionId": "tcg_xybsp"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy0_%'",
+                          "optionId": "tcg_xy0"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy1_%'",
+                          "optionId": "tcg_xy1"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy2_%'",
+                          "optionId": "tcg_xy2"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy3_%'",
+                          "optionId": "tcg_xy3"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy4_%'",
+                          "optionId": "tcg_xy4"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy5_%'",
+                          "optionId": "tcg_xy5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy5-5_%'",
+                          "optionId": "tcg_xy5-5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy6_%'",
+                          "optionId": "tcg_xy6"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy7_%'",
+                          "optionId": "tcg_xy7"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy8_%'",
+                          "optionId": "tcg_xy8"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy9_%'",
+                          "optionId": "tcg_xy9"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy9-5_%'",
+                          "optionId": "tcg_xy9-5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy10_%'",
+                          "optionId": "tcg_xy10"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy11_%'",
+                          "optionId": "tcg_xy11"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%xy12_%'",
+                          "optionId": "tcg_xy12"
+                        }
+                      ]
+                    },
+                    {
+                      "groupTitleId": "tcg_bw",
+                      "groupType": "SINGLE_GROUP",
+                      "applicableCategories": [
+                        "Pokemon",
+                        "Trainer",
+                        "Energy"
+                      ],
+                      "filterLogicOperator": {
+                        "queryPart": "OR"
+                      },
+                      "numShownDefault": 4,
+                      "filterGroupOptions": [
+                        {
+                          "queryPart": "[cardId] like '%bwbsp_%'",
+                          "optionId": "tcg_bwbsp"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw1_%'",
+                          "optionId": "tcg_bw1"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw2_%'",
+                          "optionId": "tcg_bw2"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw3_%'",
+                          "optionId": "tcg_bw3"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw4_%'",
+                          "optionId": "tcg_bw4"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw5_%'",
+                          "optionId": "tcg_bw5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw6_%'",
+                          "optionId": "tcg_bw6"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw6-5_%'",
+                          "optionId": "tcg_bw6-5"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw7_%'",
+                          "optionId": "tcg_bw7"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw8_%'",
+                          "optionId": "tcg_bw8"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw9_%'",
+                          "optionId": "tcg_bw9"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw10_%'",
+                          "optionId": "tcg_bw10"
+                        },
+                        {
+                          "queryPart": "[cardId] like '%bw11_%'",
+                          "optionId": "tcg_bw11"
+                        }
+                      ]
+                    }
+                  ]
+                }       
+              ]
+            }
+      }
+    }
+  ]
+}

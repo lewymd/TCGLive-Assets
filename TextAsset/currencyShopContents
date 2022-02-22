@@ -1,0 +1,49 @@
+{
+	"CoinPurchaseOptions":
+	[
+		{
+			"currencyType":0,
+			"currencyAmount":100,
+			"purchaseName":"Handful Of Coins",
+			"costType":1,
+			"costAmount":40
+		},
+		{
+			"currencyType":0,
+			"currencyAmount":200,
+			"purchaseName":"Sack Of Coins",
+			"costType":1,
+			"costAmount":40
+		},
+		{
+			"currencyType":0,
+			"currencyAmount":300,
+			"purchaseName":"Box Of Coins",
+			"costType":1,"costAmount":40
+		}
+	],
+	"GemPurchaseOptions":
+	[
+		{
+			"currencyType":1,
+			"currencyAmount":10,
+			"purchaseName":"Handful Of Gems",
+			"costType":-1,
+			"costAmount":199
+		},
+		{
+			"currencyType":1,
+			"currencyAmount":50,
+			"purchaseName":"Sack Of Gems",
+			"costType":-1,
+			"costAmount":399
+		},
+		{
+			"currencyType":1,
+			"currencyAmount":200,
+			"purchaseName":"Box Of Gems",
+			"costType":-1,
+			"costAmount":1999
+		}
+	]
+}

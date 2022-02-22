@@ -1,0 +1,1567 @@
+{
+  "customizationsByType": [
+    [
+      {
+        "ID": "avatar_m_001-001",
+        "Name": "avatar_m_001-001",
+        "Type": 0,
+        "AssetName": "avatar_m_001-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "avatar_m_002-001",
+        "Name": "avatar_m_002-001",
+        "Type": 0,
+        "AssetName": "avatar_m_002-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "avatar_m_003-001",
+        "Name": "avatar_m_003-001",
+        "Type": 0,
+        "AssetName": "avatar_m_003-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "avatar_m_004-001",
+        "Name": "avatar_m_004-001",
+        "Type": 0,
+        "AssetName": "avatar_m_004-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "avatar_m_006-001",
+        "Name": "avatar_m_006-001",
+        "Type": 0,
+        "AssetName": "avatar_m_006-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "eyes_m_001-001",
+        "Name": "eyes_m_001-001",
+        "Type": 1,
+        "AssetName": "eyes_m_001-001",
+        "Description": "Temp Description",
+		    "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "hair_m_001-001",
+        "Name": "hair_m_001-001",
+        "Type": 2,
+        "AssetName": "hair_m_001-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_002-001",
+        "Name": "hair_m_002-001",
+        "Type": 2,
+        "AssetName": "hair_m_002-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_005-001",
+        "Name": "hair_m_005-001",
+        "Type": 2,
+        "AssetName": "hair_m_005-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_006-001",
+        "Name": "hair_m_006-001",
+        "Type": 2,
+        "AssetName": "hair_m_006-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_007-001",
+        "Name": "hair_m_007-001",
+        "Type": 2,
+        "AssetName": "hair_m_007-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_008-001",
+        "Name": "hair_m_008-001",
+        "Type": 2,
+        "AssetName": "hair_m_008-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_009-001",
+        "Name": "hair_m_009-001",
+        "Type": 2,
+        "AssetName": "hair_m_009-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_010-001",
+        "Name": "hair_m_010-001",
+        "Type": 2,
+        "AssetName": "hair_m_010-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_011-001",
+        "Name": "hair_m_011-001",
+        "Type": 2,
+        "AssetName": "hair_m_011-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_014-001",
+        "Name": "hair_m_014-001",
+        "Type": 2,
+        "AssetName": "hair_m_014-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_015-001",
+        "Name": "hair_m_015-001",
+        "Type": 2,
+        "AssetName": "hair_m_015-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hair_m_016-001",
+        "Name": "hair_m_016-001",
+        "Type": 2,
+        "AssetName": "hair_m_016-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "hat_m_none",
+        "Name": "hat_m_none",
+        "Type": 3,
+        "AssetName": "hat_m_none",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_b_001-001",
+        "Name": "hat_m_b_001-001",
+        "Type": 3,
+        "AssetName": "hat_m_b_001-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_b_001-002",
+        "Name": "hat_m_b_001-002",
+        "Type": 3,
+        "AssetName": "hat_m_b_001-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_b_001-003",
+        "Name": "hat_m_b_001-003",
+        "Type": 3,
+        "AssetName": "hat_m_b_001-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_b_001-004",
+        "Name": "hat_m_b_001-004",
+        "Type": 3,
+        "AssetName": "hat_m_b_001-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_b_001-005",
+        "Name": "hat_m_b_001-005",
+        "Type": 3,
+        "AssetName": "hat_m_b_001-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_b_001-006",
+        "Name": "hat_m_b_001-006",
+        "Type": 3,
+        "AssetName": "hat_m_b_001-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_b_001-007",
+        "Name": "hat_m_b_001-007",
+        "Type": 3,
+        "AssetName": "hat_m_b_001-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_b_001-008",
+        "Name": "hat_m_b_001-008",
+        "Type": 3,
+        "AssetName": "hat_m_b_001-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_001-001",
+        "Name": "hat_m_c_001-001",
+        "Type": 3,
+        "AssetName": "hat_m_c_001-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_001-002",
+        "Name": "hat_m_c_001-002",
+        "Type": 3,
+        "AssetName": "hat_m_c_001-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_001-003",
+        "Name": "hat_m_c_001-003",
+        "Type": 3,
+        "AssetName": "hat_m_c_001-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_001-004",
+        "Name": "hat_m_c_001-004",
+        "Type": 3,
+        "AssetName": "hat_m_c_001-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_001-005",
+        "Name": "hat_m_c_001-005",
+        "Type": 3,
+        "AssetName": "hat_m_c_001-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_001-006",
+        "Name": "hat_m_c_001-006",
+        "Type": 3,
+        "AssetName": "hat_m_c_001-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_001-007",
+        "Name": "hat_m_c_001-007",
+        "Type": 3,
+        "AssetName": "hat_m_c_001-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_001-008",
+        "Name": "hat_m_c_001-008",
+        "Type": 3,
+        "AssetName": "hat_m_c_001-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_002-001",
+        "Name": "hat_m_c_002-001",
+        "Type": 3,
+        "AssetName": "hat_m_c_002-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_002-002",
+        "Name": "hat_m_c_002-002",
+        "Type": 3,
+        "AssetName": "hat_m_c_002-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_002-003",
+        "Name": "hat_m_c_002-003",
+        "Type": 3,
+        "AssetName": "hat_m_c_002-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_002-004",
+        "Name": "hat_m_c_002-004",
+        "Type": 3,
+        "AssetName": "hat_m_c_002-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_002-005",
+        "Name": "hat_m_c_002-005",
+        "Type": 3,
+        "AssetName": "hat_m_c_002-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_002-006",
+        "Name": "hat_m_c_002-006",
+        "Type": 3,
+        "AssetName": "hat_m_c_002-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_002-007",
+        "Name": "hat_m_c_002-007",
+        "Type": 3,
+        "AssetName": "hat_m_c_002-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_002-008",
+        "Name": "hat_m_c_002-008",
+        "Type": 3,
+        "AssetName": "hat_m_c_002-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_007-001",
+        "Name": "hat_m_c_007-001",
+        "Type": 3,
+        "AssetName": "hat_m_c_007-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_007-002",
+        "Name": "hat_m_c_007-002",
+        "Type": 3,
+        "AssetName": "hat_m_c_007-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_007-003",
+        "Name": "hat_m_c_007-003",
+        "Type": 3,
+        "AssetName": "hat_m_c_007-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_007-004",
+        "Name": "hat_m_c_007-004",
+        "Type": 3,
+        "AssetName": "hat_m_c_007-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_007-005",
+        "Name": "hat_m_c_007-005",
+        "Type": 3,
+        "AssetName": "hat_m_c_007-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_007-006",
+        "Name": "hat_m_c_007-006",
+        "Type": 3,
+        "AssetName": "hat_m_c_007-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_007-007",
+        "Name": "hat_m_c_007-007",
+        "Type": 3,
+        "AssetName": "hat_m_c_007-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_c_007-008",
+        "Name": "hat_m_c_007-008",
+        "Type": 3,
+        "AssetName": "hat_m_c_007-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_v_001-001",
+        "Name": "hat_m_v_001-001",
+        "Type": 3,
+        "AssetName": "hat_m_v_001-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_v_001-002",
+        "Name": "hat_m_v_001-002",
+        "Type": 3,
+        "AssetName": "hat_m_v_001-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_v_001-003",
+        "Name": "hat_m_v_001-003",
+        "Type": 3,
+        "AssetName": "hat_m_v_001-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_v_001-004",
+        "Name": "hat_m_v_001-004",
+        "Type": 3,
+        "AssetName": "hat_m_v_001-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_v_001-005",
+        "Name": "hat_m_v_001-005",
+        "Type": 3,
+        "AssetName": "hat_m_v_001-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_v_001-006",
+        "Name": "hat_m_v_001-006",
+        "Type": 3,
+        "AssetName": "hat_m_v_001-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_v_001-007",
+        "Name": "hat_m_v_001-007",
+        "Type": 3,
+        "AssetName": "hat_m_v_001-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "hat_m_v_001-008",
+        "Name": "hat_m_v_001-008",
+        "Type": 3,
+        "AssetName": "hat_m_v_001-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "upper_m_001-001",
+        "Name": "upper_m_001-001",
+        "Type": 4,
+        "AssetName": "upper_m_001-001",
+        "Description": "Temp Description",
+		    "Cost": 0
+      },
+      {
+        "ID": "upper_m_001-002",
+        "Name": "upper_m_001-002",
+        "Type": 4,
+        "AssetName": "upper_m_001-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_001-003",
+        "Name": "upper_m_001-003",
+        "Type": 4,
+        "AssetName": "upper_m_001-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_001-004",
+        "Name": "upper_m_001-004",
+        "Type": 4,
+        "AssetName": "upper_m_001-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_001-005",
+        "Name": "upper_m_001-005",
+        "Type": 4,
+        "AssetName": "upper_m_001-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_001-006",
+        "Name": "upper_m_001-006",
+        "Type": 4,
+        "AssetName": "upper_m_001-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_001-007",
+        "Name": "upper_m_001-007",
+        "Type": 4,
+        "AssetName": "upper_m_001-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_001-008",
+        "Name": "upper_m_001-008",
+        "Type": 4,
+        "AssetName": "upper_m_001-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_004-001",
+        "Name": "upper_m_004-001",
+        "Type": 4,
+        "AssetName": "upper_m_004-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_004-002",
+        "Name": "upper_m_004-002",
+        "Type": 4,
+        "AssetName": "upper_m_004-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_004-003",
+        "Name": "upper_m_004-003",
+        "Type": 4,
+        "AssetName": "upper_m_004-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_004-004",
+        "Name": "upper_m_004-004",
+        "Type": 4,
+        "AssetName": "upper_m_004-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_004-005",
+        "Name": "upper_m_004-005",
+        "Type": 4,
+        "AssetName": "upper_m_004-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_004-006",
+        "Name": "upper_m_004-006",
+        "Type": 4,
+        "AssetName": "upper_m_004-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_004-007",
+        "Name": "upper_m_004-007",
+        "Type": 4,
+        "AssetName": "upper_m_004-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_004-008",
+        "Name": "upper_m_004-008",
+        "Type": 4,
+        "AssetName": "upper_m_004-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_005-001",
+        "Name": "upper_m_005-001",
+        "Type": 4,
+        "AssetName": "upper_m_005-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_005-002",
+        "Name": "upper_m_005-002",
+        "Type": 4,
+        "AssetName": "upper_m_005-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_005-003",
+        "Name": "upper_m_005-003",
+        "Type": 4,
+        "AssetName": "upper_m_005-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_005-004",
+        "Name": "upper_m_005-004",
+        "Type": 4,
+        "AssetName": "upper_m_005-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_005-005",
+        "Name": "upper_m_005-005",
+        "Type": 4,
+        "AssetName": "upper_m_005-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_005-006",
+        "Name": "upper_m_005-006",
+        "Type": 4,
+        "AssetName": "upper_m_005-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_005-007",
+        "Name": "upper_m_005-007",
+        "Type": 4,
+        "AssetName": "upper_m_005-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_005-008",
+        "Name": "upper_m_005-008",
+        "Type": 4,
+        "AssetName": "upper_m_005-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_011-001",
+        "Name": "upper_m_011-001",
+        "Type": 4,
+        "AssetName": "upper_m_011-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_011-002",
+        "Name": "upper_m_011-002",
+        "Type": 4,
+        "AssetName": "upper_m_011-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_011-003",
+        "Name": "upper_m_011-003",
+        "Type": 4,
+        "AssetName": "upper_m_011-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_011-004",
+        "Name": "upper_m_011-004",
+        "Type": 4,
+        "AssetName": "upper_m_011-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_011-005",
+        "Name": "upper_m_011-005",
+        "Type": 4,
+        "AssetName": "upper_m_011-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_011-006",
+        "Name": "upper_m_011-006",
+        "Type": 4,
+        "AssetName": "upper_m_011-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_011-007",
+        "Name": "upper_m_011-007",
+        "Type": 4,
+        "AssetName": "upper_m_011-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_011-008",
+        "Name": "upper_m_011-008",
+        "Type": 4,
+        "AssetName": "upper_m_011-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_012-001",
+        "Name": "upper_m_012-001",
+        "Type": 4,
+        "AssetName": "upper_m_012-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_012-002",
+        "Name": "upper_m_012-002",
+        "Type": 4,
+        "AssetName": "upper_m_012-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_012-003",
+        "Name": "upper_m_012-003",
+        "Type": 4,
+        "AssetName": "upper_m_012-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_012-004",
+        "Name": "upper_m_012-004",
+        "Type": 4,
+        "AssetName": "upper_m_012-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_012-005",
+        "Name": "upper_m_012-005",
+        "Type": 4,
+        "AssetName": "upper_m_012-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_012-006",
+        "Name": "upper_m_012-006",
+        "Type": 4,
+        "AssetName": "upper_m_012-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_012-007",
+        "Name": "upper_m_012-007",
+        "Type": 4,
+        "AssetName": "upper_m_012-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "upper_m_012-008",
+        "Name": "upper_m_012-008",
+        "Type": 4,
+        "AssetName": "upper_m_012-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "lower_m_001-001",
+        "Name": "lower_m_001-001",
+        "Type": 5,
+        "AssetName": "lower_m_001-001",
+        "Description": "Temp Description",
+		    "Cost": 0
+      },
+      {
+        "ID": "lower_m_001-002",
+        "Name": "lower_m_001-002",
+        "Type": 5,
+        "AssetName": "lower_m_001-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_001-003",
+        "Name": "lower_m_001-003",
+        "Type": 5,
+        "AssetName": "lower_m_001-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_001-004",
+        "Name": "lower_m_001-004",
+        "Type": 5,
+        "AssetName": "lower_m_001-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_001-005",
+        "Name": "lower_m_001-005",
+        "Type": 5,
+        "AssetName": "lower_m_001-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_001-006",
+        "Name": "lower_m_001-006",
+        "Type": 5,
+        "AssetName": "lower_m_001-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_001-007",
+        "Name": "lower_m_001-007",
+        "Type": 5,
+        "AssetName": "lower_m_001-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_001-008",
+        "Name": "lower_m_001-008",
+        "Type": 5,
+        "AssetName": "lower_m_001-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_003-001",
+        "Name": "lower_m_003-001",
+        "Type": 5,
+        "AssetName": "lower_m_003-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_003-002",
+        "Name": "lower_m_003-002",
+        "Type": 5,
+        "AssetName": "lower_m_003-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_003-003",
+        "Name": "lower_m_003-003",
+        "Type": 5,
+        "AssetName": "lower_m_003-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_003-004",
+        "Name": "lower_m_003-004",
+        "Type": 5,
+        "AssetName": "lower_m_003-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_003-005",
+        "Name": "lower_m_003-005",
+        "Type": 5,
+        "AssetName": "lower_m_003-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_003-006",
+        "Name": "lower_m_003-006",
+        "Type": 5,
+        "AssetName": "lower_m_003-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_003-007",
+        "Name": "lower_m_003-007",
+        "Type": 5,
+        "AssetName": "lower_m_003-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_003-008",
+        "Name": "lower_m_003-008",
+        "Type": 5,
+        "AssetName": "lower_m_003-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_008-001",
+        "Name": "lower_m_008-001",
+        "Type": 5,
+        "AssetName": "lower_m_008-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_008-002",
+        "Name": "lower_m_008-002",
+        "Type": 5,
+        "AssetName": "lower_m_008-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_008-003",
+        "Name": "lower_m_008-003",
+        "Type": 5,
+        "AssetName": "lower_m_008-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_008-004",
+        "Name": "lower_m_008-004",
+        "Type": 5,
+        "AssetName": "lower_m_008-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_008-005",
+        "Name": "lower_m_008-005",
+        "Type": 5,
+        "AssetName": "lower_m_008-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_008-006",
+        "Name": "lower_m_008-006",
+        "Type": 5,
+        "AssetName": "lower_m_008-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_008-007",
+        "Name": "lower_m_008-007",
+        "Type": 5,
+        "AssetName": "lower_m_008-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_013-001",
+        "Name": "lower_m_013-001",
+        "Type": 5,
+        "AssetName": "lower_m_013-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_013-002",
+        "Name": "lower_m_013-002",
+        "Type": 5,
+        "AssetName": "lower_m_013-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_013-003",
+        "Name": "lower_m_013-003",
+        "Type": 5,
+        "AssetName": "lower_m_013-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_013-005",
+        "Name": "lower_m_013-005",
+        "Type": 5,
+        "AssetName": "lower_m_013-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_013-006",
+        "Name": "lower_m_013-006",
+        "Type": 5,
+        "AssetName": "lower_m_013-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "lower_m_013-007",
+        "Name": "lower_m_013-007",
+        "Type": 5,
+        "AssetName": "lower_m_013-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "shoe_m_001-001",
+        "Name": "shoe_m_001-001",
+        "Type": 6,
+        "AssetName": "shoe_m_001-001",
+        "Description": "Temp Description",
+		    "Cost": 0
+      },
+      {
+        "ID": "shoe_m_001-002",
+        "Name": "shoe_m_001-002",
+        "Type": 6,
+        "AssetName": "shoe_m_001-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_001-003",
+        "Name": "shoe_m_001-003",
+        "Type": 6,
+        "AssetName": "shoe_m_001-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_001-004",
+        "Name": "shoe_m_001-004",
+        "Type": 6,
+        "AssetName": "shoe_m_001-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_001-005",
+        "Name": "shoe_m_001-005",
+        "Type": 6,
+        "AssetName": "shoe_m_001-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_001-006",
+        "Name": "shoe_m_001-006",
+        "Type": 6,
+        "AssetName": "shoe_m_001-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_001-007",
+        "Name": "shoe_m_001-007",
+        "Type": 6,
+        "AssetName": "shoe_m_001-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_001-008",
+        "Name": "shoe_m_001-008",
+        "Type": 6,
+        "AssetName": "shoe_m_001-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_004-001",
+        "Name": "shoe_m_004-001",
+        "Type": 6,
+        "AssetName": "shoe_m_004-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_004-002",
+        "Name": "shoe_m_004-002",
+        "Type": 6,
+        "AssetName": "shoe_m_004-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_004-003",
+        "Name": "shoe_m_004-003",
+        "Type": 6,
+        "AssetName": "shoe_m_004-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_004-004",
+        "Name": "shoe_m_004-004",
+        "Type": 6,
+        "AssetName": "shoe_m_004-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_004-005",
+        "Name": "shoe_m_004-005",
+        "Type": 6,
+        "AssetName": "shoe_m_004-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_004-006",
+        "Name": "shoe_m_004-006",
+        "Type": 6,
+        "AssetName": "shoe_m_004-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_004-007",
+        "Name": "shoe_m_004-007",
+        "Type": 6,
+        "AssetName": "shoe_m_004-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_007-001",
+        "Name": "shoe_m_007-001",
+        "Type": 6,
+        "AssetName": "shoe_m_007-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_007-002",
+        "Name": "shoe_m_007-002",
+        "Type": 6,
+        "AssetName": "shoe_m_007-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_007-003",
+        "Name": "shoe_m_007-003",
+        "Type": 6,
+        "AssetName": "shoe_m_007-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_007-004",
+        "Name": "shoe_m_007-004",
+        "Type": 6,
+        "AssetName": "shoe_m_007-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_007-005",
+        "Name": "shoe_m_007-005",
+        "Type": 6,
+        "AssetName": "shoe_m_007-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_007-006",
+        "Name": "shoe_m_007-006",
+        "Type": 6,
+        "AssetName": "shoe_m_007-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_007-007",
+        "Name": "shoe_m_007-007",
+        "Type": 6,
+        "AssetName": "shoe_m_007-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_007-008",
+        "Name": "shoe_m_007-008",
+        "Type": 6,
+        "AssetName": "shoe_m_007-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_010-001",
+        "Name": "shoe_m_010-001",
+        "Type": 6,
+        "AssetName": "shoe_m_010-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_010-002",
+        "Name": "shoe_m_010-002",
+        "Type": 6,
+        "AssetName": "shoe_m_010-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_010-003",
+        "Name": "shoe_m_010-003",
+        "Type": 6,
+        "AssetName": "shoe_m_010-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_010-004",
+        "Name": "shoe_m_010-004",
+        "Type": 6,
+        "AssetName": "shoe_m_010-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_010-005",
+        "Name": "shoe_m_010-005",
+        "Type": 6,
+        "AssetName": "shoe_m_010-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_010-006",
+        "Name": "shoe_m_010-006",
+        "Type": 6,
+        "AssetName": "shoe_m_010-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_010-007",
+        "Name": "shoe_m_010-007",
+        "Type": 6,
+        "AssetName": "shoe_m_010-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_010-008",
+        "Name": "shoe_m_010-008",
+        "Type": 6,
+        "AssetName": "shoe_m_004-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_012-001",
+        "Name": "shoe_m_012-001",
+        "Type": 6,
+        "AssetName": "shoe_m_012-001",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_012-002",
+        "Name": "shoe_m_012-002",
+        "Type": 6,
+        "AssetName": "shoe_m_012-002",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_012-003",
+        "Name": "shoe_m_012-003",
+        "Type": 6,
+        "AssetName": "shoe_m_012-003",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_012-004",
+        "Name": "shoe_m_012-004",
+        "Type": 6,
+        "AssetName": "shoe_m_012-004",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_012-005",
+        "Name": "shoe_m_012-005",
+        "Type": 6,
+        "AssetName": "shoe_m_012-005",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_012-006",
+        "Name": "shoe_m_012-006",
+        "Type": 6,
+        "AssetName": "shoe_m_012-006",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_012-007",
+        "Name": "shoe_m_012-007",
+        "Type": 6,
+        "AssetName": "shoe_m_012-007",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "shoe_m_012-008",
+        "Name": "shoe_m_012-008",
+        "Type": 6,
+        "AssetName": "shoe_m_012-008",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "default",
+        "Name": "Default Pose",
+        "Type": 7,
+        "AssetName": "none",
+        "Description": "Temp Description",
+		    "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "phrase_intro_default",
+        "Name": "Default Phrase",
+        "Type": 8,
+        "AssetName": "Let's give it our all!",
+        "Description": "Temp Description",
+		    "Cost": 0
+      },
+      {
+        "ID": "phrase_intro_001",
+        "Name": "VICTORY WILL NEVER COME",
+        "Type": 8,
+        "AssetName": "Victory will never come to those who aren’t prepared to face defeat.",
+        "Description": "Temp Description",
+		    "Cost": 1
+      },
+      {
+        "ID": "phrase_intro_002",
+        "Name": "BRING IT",
+        "Type": 8,
+        "AssetName": "No need to waste time saying hello. Bring it on whenever you’re ready!",
+        "Description": "Temp Description",
+		    "Cost": 1
+      },
+      {
+        "ID": "phrase_intro_003",
+        "Name": "THE VERY BEST",
+        "Type": 8,
+        "AssetName": "I wanna be the very best, like no one ever was!",
+        "Description": "Temp Description",
+		    "Cost": 1
+      }
+    ],
+    [
+      {
+        "ID": "phrase_victory_default",
+        "Name": "Default Phrase",
+        "Type": 9,
+        "AssetName": "What a match! I’m quite satisfied with the result.",
+        "Description": "Temp Description",
+        "Cost": 0
+      },
+      {
+        "ID": "phrase_victory_001",
+        "Name": "YOU DIDN'T FOCUS",
+        "Type": 9,
+        "AssetName": "Ah, you see? You didn’t focus on the match. That’s why you lost!",
+        "Description": "Temp Description",
+        "Cost": 1
+      },
+      {
+        "ID": "phrase_victory_002",
+        "Name": "WE CAN STOP TRAINING",
+        "Type": 9,
+        "AssetName": "I guess we can stop training for today. You learned some new things, right?",
+        "Description": "Temp Description",
+        "Cost": 1
+      },
+      {
+        "ID": "phrase_victory_003",
+        "Name": "GET STRONGER",
+        "Type": 9,
+        "AssetName": "I’ll let you go this time. Get stronger, then come back and fight me again.",
+        "Description": "Temp Description",
+        "Cost": 1
+      }
+    ],
+    [
+      {
+        "ID": "default",
+        "Name": "Default Pose",
+        "Type": 10,
+        "AssetName": "none",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "default",
+        "Name": "Default Pose",
+        "Type": 11,
+        "AssetName": "none",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "default",
+        "Name": "Default Pose",
+        "Type": 12,
+        "AssetName": "none",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "default",
+        "Name": "Default Pose",
+        "Type": 13,
+        "AssetName": "none",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "default",
+        "Name": "Default Pose",
+        "Type": 14,
+        "AssetName": "none",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "default",
+        "Name": "Default Pose",
+        "Type": 15,
+        "AssetName": "none",
+        "Description": "Temp Description",
+        "Cost": 0
+      }
+    ],
+    [
+      {
+        "ID": "glasses_m_none",
+        "Name": "glasses_m_none",
+        "Type": 16,
+        "AssetName": "glasses_m_none",
+        "Description": "Glasses",
+        "Cost": 0
+      },
+      {
+        "ID": "glasses_m_001-001",
+        "Name": "glasses_m_001-001",
+        "Type": 16,
+        "AssetName": "glasses_m_001-001",
+        "Description": "Glasses",
+        "Cost": 0
+      },
+      {
+        "ID": "glasses_m_002-001",
+        "Name": "glasses_m_002-001",
+        "Type": 16,
+        "AssetName": "glasses_m_002-001",
+        "Description": "Glasses",
+        "Cost": 0
+      },
+      {
+        "ID": "glasses_m_003-001",
+        "Name": "glasses_m_003-001",
+        "Type": 16,
+        "AssetName": "glasses_m_003-001",
+        "Description": "Glasses",
+        "Cost": 0
+      },
+      {
+        "ID": "glasses_m_004-001",
+        "Name": "glasses_m_004-001",
+        "Type": 16,
+        "AssetName": "glasses_m_004-001",
+        "Description": "Glasses",
+        "Cost": 0
+      },
+      {
+        "ID": "glasses_m_005-001",
+        "Name": "glasses_m_005-001",
+        "Type": 16,
+        "AssetName": "glasses_m_005-001",
+        "Description": "Glasses",
+        "Cost": 0
+      },
+      {
+        "ID": "glasses_m_006-001",
+        "Name": "glasses_m_006-001",
+        "Type": 16,
+        "AssetName": "glasses_m_006-001",
+        "Description": "Glasses",
+        "Cost": 0
+      },
+      {
+        "ID": "glasses_m_007-001",
+        "Name": "glasses_m_007-001",
+        "Type": 16,
+        "AssetName": "glasses_m_007-001",
+        "Description": "Glasses",
+        "Cost": 0
+      },
+      {
+        "ID": "glasses_m_008-001",
+        "Name": "glasses_m_008-001",
+        "Type": 16,
+        "AssetName": "glasses_m_008-001",
+        "Description": "Glasses",
+        "Cost": 0
+      }
+    ]
+  ]
+}
+

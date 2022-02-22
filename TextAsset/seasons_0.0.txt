@@ -1,0 +1,206 @@
+{
+  "id": "seasons_0.0",
+  "type": "configdoc",
+  "values": [
+    {
+      "keyName": "seasons",
+      "content": {
+        "seasonID": 0,
+        "endDate": "2020-12-24T10:38:00",
+        "seasonInfo": "season_info",
+        "bannerAssetName": "swsh6_galarian_articuno_full",
+        "leagueData": [
+          {
+            "leagueName": "quick_league",
+            "leagueColorHex": "#0679B2",
+            "leagueFrame": "rankIcon_Frame_QuickLeague",
+            "leagueInfo": "quick_league_info",
+            "rankData": [
+              {
+                "rankName": "quick_league_rank1_togepi",
+                "rankImage": "rankIcon_Image_QuickLeague_4",
+                "expLimit": 5
+              },
+              {
+                "rankName": "quick_league_rank2_cleffa",
+                "rankImage": "rankIcon_Image_QuickLeague_3",
+                "expLimit": 10
+              },
+              {
+                "rankName": "quick_league_rank3_riolu",
+                "rankImage": "rankIcon_Image_QuickLeague_2",
+                "expLimit": 15
+              },
+              {
+                "rankName": "quick_league_rank4_pichu",
+                "rankImage": "rankIcon_Image_QuickLeague_1",
+                "expLimit": 20
+              }
+            ]
+          },
+          {
+            "leagueName": "poke_league",
+            "leagueColorHex": "#FF2831",
+            "leagueFrame": "rankIcon_Frame_PokeLeague",
+            "leagueInfo": "poke_league_info",
+            "rankData": [
+              {
+                "rankName": "poke_league_rank1_pikachu",
+                "rankImage": "rankIcon_Image_PokeLeague_4",
+                "expLimit": 30
+              },
+              {
+                "rankName": "poke_league_rank2_scorbunny",
+                "rankImage": "rankIcon_Image_PokeLeague_3",
+                "expLimit": 40
+              },
+              {
+                "rankName": "poke_league_rank3_snubbull",
+                "rankImage": "rankIcon_Image_PokeLeague_2",
+                "expLimit": 50
+              },
+              {
+                "rankName": "poke_league_rank4_bulbasaur",
+                "rankImage": "rankIcon_Image_PokeLeague_1",
+                "expLimit": 60
+              }
+            ]
+          },
+          {
+            "leagueName": "great_league",
+            "leagueColorHex": "#FF2831",
+            "leagueFrame": "rankIcon_Frame_GreatLeague",
+            "leagueInfo": "great_league_info",
+            "rankData": [
+              {
+                "rankName": "great_league_rank1_greninja",
+                "rankImage": "rankIcon_Image_GreatLeague_6",
+                "expLimit": 72
+              },
+              {
+                "rankName": "great_league_rank2_houndoom",
+                "rankImage": "rankIcon_Image_GreatLeague_5",
+                "expLimit": 84
+              },
+              {
+                "rankName": "great_league_rank3_alakazam",
+                "rankImage": "rankIcon_Image_GreatLeague_4",
+                "expLimit": 96
+              },
+              {
+                "rankName": "great_league_rank4_umbreon",
+                "rankImage": "rankIcon_Image_GreatLeague_3",
+                "expLimit": 108
+              },
+              {
+                "rankName": "great_league_rank5_corviknight",
+                "rankImage": "rankIcon_Image_GreatLeague_2",
+                "expLimit": 120
+              },
+              {
+                "rankName": "great_league_rank6_charizard",
+                "rankImage": "rankIcon_Image_GreatLeague_1",
+                "expLimit": 132
+              }
+            ]
+          },
+          {
+            "leagueName": "ultra_league",
+            "leagueColorHex": "#FF2831",
+            "leagueFrame": "rankIcon_Frame_UltraLeague",
+            "leagueInfo": "ultra_league_info",
+            "rankData": [
+              {
+                "rankName": "ultra_league_rank1_azelf",
+                "rankImage": "rankIcon_Image_UltraLeague_5",
+                "expLimit": 146
+              },
+              {
+                "rankName": "ultra_league_rank2_ho-oh",
+                "rankImage": "rankIcon_Image_UltraLeague_4",
+                "expLimit": 160
+              },
+              {
+                "rankName": "ultra_league_rank3_necrozma",
+                "rankImage": "rankIcon_Image_UltraLeague_3",
+                "expLimit": 174
+              },
+              {
+                "rankName": "ultra_league_rank4_lugia",
+                "rankImage": "rankIcon_Image_UltraLeague_2",
+                "expLimit": 188
+              },
+              {
+                "rankName": "ultra_league_rank5_mewtwo",
+                "rankImage": "rankIcon_Image_UltraLeague_1",
+                "expLimit": 202
+              }
+            ]
+          },
+          {
+            "leagueName": "master_league",
+            "leagueColorHex": "#FF2831",
+            "leagueFrame": "rankIcon_Frame_MasterLeague",
+            "leagueInfo": "master_league_info",
+            "rankData": [
+              {
+                "rankName": "master_league_rank1_deoxys",
+                "rankImage": "rankIcon_Image_MasterLeague_5",
+                "expLimit": 218
+              },
+              {
+                "rankName": "master_league_rank2_victini",
+                "rankImage": "rankIcon_Image_MasterLeague_4",
+                "expLimit": 234
+              },
+              {
+                "rankName": "master_league_rank3_shaymin",
+                "rankImage": "rankIcon_Image_MasterLeague_3",
+                "expLimit": 250
+              },
+              {
+                "rankName": "master_league_rank4_mew",
+                "rankImage": "rankIcon_Image_MasterLeague_2",
+                "expLimit": 266
+              }
+            ]
+          },
+          {
+            "leagueName": "arceus_league",
+            "leagueColorHex": "#FF2831",
+            "leagueFrame": "rankIcon_Frame_MasterLeague",
+            "leagueInfo": "arceus_league_info",
+            "rankData": [
+              {
+                "rankName": "arceus_league_rank1_arceus",
+                "rankImage": "rankIcon_Image_MasterLeague_1",
+                "expLimit": 1500
+              }
+            ]
+          }
+        ],
+        "prizes": {
+          "200": [
+            "season1_pokeleague_reward"
+          ],
+          "600": [
+            "season1_greatleague_reward"
+          ],
+          "1320": [
+            "season1_ultraleague_reward"
+          ],
+          "2020": [
+            "season1_masterleague_reward"
+          ],
+          "2660": [
+            "season1_arceusleague_reward"
+          ],
+          "0": [
+            "season1_quickleague_reward"
+          ]
+        },
+        "ExpLimit": 1500
+      }
+    }
+  ]
+}

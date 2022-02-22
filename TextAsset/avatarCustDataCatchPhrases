@@ -1,0 +1,516 @@
+{
+  "customizationsByType": 
+  {
+    "CatchphraseIntro": 
+    [
+        {
+            "ID": "catchphrase_intro_1",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 0
+        },
+        {
+            "ID": "catchphrase_intro_2",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_3",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_4",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_5",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_6",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_7",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_8",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_9",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_10",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_11",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_12",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_13",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_14",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_15",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_16",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_17",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_18",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_19",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_20",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_21",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_22",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_23",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_24",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_25",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_26",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_27",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_28",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_29",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_30",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_31",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_32",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_33",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_intro_34",
+            "Name": "",
+            "Type": 8,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        }
+    ],
+    "CatchphraseVictory": 
+    [
+        {
+            "ID": "catchphrase_victory_1",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 0
+        },
+        {
+            "ID": "catchphrase_victory_2",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_3",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_4",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_5",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_6",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_7",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_8",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_9",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_10",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_11",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_12",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_13",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_14",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_15",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_16",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_17",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_18",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_19",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_20",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_21",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_22",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_23",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_24",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_25",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_26",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_27",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_28",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        },
+        {
+            "ID": "catchphrase_victory_29",
+            "Name": "",
+            "Type": 9,
+            "AssetName": "",
+            "Description": "",
+            "Cost": 500
+        }
+    ]
+  }
+}
+

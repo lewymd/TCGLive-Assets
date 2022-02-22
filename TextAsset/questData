@@ -1,0 +1,16 @@
+{
+  "dailyQuestNames": [
+    "Quest For Soft Currency",
+    "Quest For Booster Pack"
+
+  ],
+  "dailyQuestDescriptionsEN": [
+    "This is the quest description for getting soft currency.",
+    "This is the quest description for getting a booster pack."
+
+  ],
+  "dailyQuestItemTypes": [3, 1],
+  "dailyQuestItemAmounts": [250, 3],
+  "dailyQuestProgresses": [0.9, 0.4],
+  "dailyQuestItemIcons": ["soft_currency_icon", "booster_pack_icon"]
+}

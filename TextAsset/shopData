@@ -1,0 +1,124 @@
+{
+  "bundleNames": [
+    "Fake Bundle 1",
+    "Fake Bundle 2",
+    "Fake Bundle 3",
+    "Fake Bundle 4",
+    "Fake Bundle 5",
+    "Fake Bundle 6"
+  ],
+  "bundlePrices": [
+    45.99,
+    89.99,
+    120.12,
+    499.0,
+    1234.0,
+    1.50
+  ],
+  "bundleExpirationDates": [
+    43824.0,
+    43793.0,
+    43800.0,
+    43809.0,
+    43769.0,
+    43769.0
+  ],
+  "bundleContents": {
+    "itemTypes": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "amounts": [
+      [
+        1,
+        5,
+        250
+      ],
+      [
+        1,
+        5,
+        250
+      ],
+      [
+        1,
+        5,
+        250
+      ],
+      [
+        1,
+        5,
+        250
+      ],
+      [
+        1,
+        5,
+        250
+      ],
+      [
+        1,
+        5,
+        500
+      ]
+    ],
+    "icons": [
+      [
+        "theme_deck_icon",
+        "booster_pack_icon",
+        "hard_currency_icon"
+      ],
+      [
+        "theme_deck_icon",
+        "booster_pack_icon",
+        "hard_currency_icon"
+      ],
+      [
+        "theme_deck_icon",
+        "booster_pack_icon",
+        "hard_currency_icon"
+      ],
+      [
+        "theme_deck_icon",
+        "booster_pack_icon",
+        "hard_currency_icon"
+      ],
+      [
+        "theme_deck_icon",
+        "booster_pack_icon",
+        "hard_currency_icon"
+      ],
+      [
+        "theme_deck_icon",
+        "booster_pack_icon",
+        "soft_currency_icon"
+      ]
+    ]
+  }
+}

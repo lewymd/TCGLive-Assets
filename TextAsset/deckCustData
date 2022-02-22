@@ -1,0 +1,832 @@
+{
+  "customizationsByType": [
+    [
+      {
+        "ID": "default",
+        "Name": "Default Box",
+        "Type": 0,
+        "AssetName": "DB_PC_Pokeballs",
+        "Description": "Temporary Item Description. Here's some info about the default box.",
+        "Cost": 0
+      },
+      {
+        "ID": "eevee",
+        "Name": "Eevee Capes Box",
+        "Type": 0,
+        "AssetName": "DB_PC_EeveeCapes",
+        "Description": "Temporary Item Description. Here's some info about the eevee box.",
+        "Cost": 1
+      },
+      {
+        "ID": "mimikyu",
+        "Name": "Mimikyu Box",
+        "Type": 0,
+        "AssetName": "DB_PC_Mimikyu",
+        "Description": "Temporary Item Description. Here's some info about the mimikyu box.",
+        "Cost": 1
+      },
+      {
+        "ID": "groudon_box",
+        "Name": "Groudon Box",
+        "Type": 0,
+        "AssetName": "DB_ETB_XY5_Groudon",
+        "Description": "Temporary Item Description. Here's some info about the Groudon box.",
+        "Cost": 1
+      },
+      {
+        "ID": "kyogre_box",
+        "Name": "Kyogre Box",
+        "Type": 0,
+        "AssetName": "DB_ETB_XY5_Kyogre",
+        "Description": "Temporary Item Description. Here's some info about the Kyogre box.",
+        "Cost": 1
+      },
+      {
+        "ID": "swsh_box",
+        "Name": "Sword Sheild Box",
+        "Type": 0,
+        "AssetName": "DB_LS1_SWSH1_SwordShield",
+        "Description": "Temporary Item Description. Here's some info about the Sword Shield box.",
+        "Cost": 1
+      },
+      {
+        "ID": "worlds17_attendee_box",
+        "Name": "2017 World Championships Attendee Box",
+        "Type": 0,
+        "AssetName": "DB_Worlds17_AttendeeKit",
+        "Description": "Temporary Item Description. Here's some info about the Worlds 2017 Attendee box.",
+        "Cost": 1
+      },
+      {
+        "ID": "worlds17_championship_box",
+        "Name": "2017 World Championships Box",
+        "Type": 0,
+        "AssetName": "DB_Worlds17_Championship",
+        "Description": "Temporary Item Description. Here's some info about the Worlds 2017 Championship box.",
+        "Cost": 1
+      },{
+       "ID": "reshizard_box",
+       "Name": "Reshiram/Charizard Box",
+       "Type": 0,
+       "AssetName": "DB_ETB_SM10_ReshiramCharizard",
+       "Description": "Temporary Item Description. Here's some info about the Reshiram/Charizard box.",
+       "Cost": 1
+      },{
+       "ID": "MewtwoMew_box",
+       "Name": "Mewtwo/Mew Box",
+       "Type": 0,
+       "AssetName": "DB_ETB_SM11_MewtwoMew",
+       "Description": "Temporary Item Description. Here's some info about the Mewtwo/Mew box.",
+       "Cost": 1
+      },{
+       "ID": "MoltresZapdosArticuno_box",
+       "Name": "Legendary Bird Box",
+       "Type": 0,
+       "AssetName": "DB_ETB_SM11-5_MotresZapdosArticuNo",
+       "Description": "Temporary Item Description. Here's some info about the Legendary Bird box.",
+       "Cost": 1
+      },{
+       "ID": "ArceusDialgaPalkia_box",
+       "Name": "Legendary Creators Box",
+       "Type": 0,
+       "AssetName": "DB_ETB_SM12_ArceusDialgaPalkia",
+       "Description": "Temporary Item Description. Here's some info about the Legendary Creators box.",
+       "Cost": 1
+      },{
+       "ID": "PikaRom_box",
+       "Name": "Pikachu/Zekrom Box",
+       "Type": 0,
+       "AssetName": "DB_ETB_SM9_PikachuZekrom",
+       "Description": "Temporary Item Description. Here's some info about the Pikachu/Zekrom box.",
+       "Cost": 1
+      },{
+       "ID": "tcgl_bulbasaur_box",
+       "Name": "TCGL Bulbasaur Box",
+       "Type": 0,
+       "AssetName": "DB_TCGL_Bulbasaur",
+       "Description": "Temporary Item Description. Here's some info about the TCGL Bulbasaur box.",
+       "Cost": 1
+      }
+    ],
+    [
+      {
+        "ID": "default",
+        "Name": "No Sleeve",
+        "Type": 1,
+        "AssetName": "CS_Default_Pokemon",
+        "Description": "Temporary Item Description. Here's some info about the default sleeve.",
+        "Cost": 0
+      },
+      {
+        "ID": "eevee",
+        "Name": "Eevee Capes Sleeve",
+        "Type": 1,
+        "AssetName": "CS_PC_EeveeCapes",
+        "Description": "Temporary Item Description. Here's some info about the eevee sleeve.",
+        "Cost": 1
+      },
+      {
+        "ID": "mimikyu",
+        "Name": "Mimikyu Sleeve",
+        "Type": 1,
+        "AssetName": "CS_PC_Mimikyu",
+        "Description": "Temporary Item Description. Here's some info about the mimikyu sleeve.",
+        "Cost": 1
+      },
+      {
+        "ID": "pokeballs",
+        "Name": "Pokeballs Sleeve",
+        "Type": 1,
+        "AssetName": "CS_PC_Pokeballs",
+        "Description": "Temporary Item Description. Here's some info about the pokeballs sleeve.",
+        "Cost": 1
+      },
+      {
+        "ID": "charizard_reshiram",
+        "Name": "Charizard+Reshiram Sleeve",
+        "Type": 1,
+        "AssetName": "CS_ETB_SM10_ReshiramCharizard",
+        "Description": "Temporary Item Description. Here's some info about the reshizard sleeve.",
+        "Cost": 1
+      },
+      {
+        "ID": "trainers_toolkit",
+        "Name": "Trainer's Toolkit Sleeve",
+        "Type": 1,
+        "AssetName": "CS_TrainersToolkit",
+        "Description": "Temporary Item Description. Here's some info about the trainer's toolkit sleeve.",
+        "Cost": 1
+      },
+      {
+        "ID": "world_championships_2014",
+        "Name": "2014 World Championship Sleeve",
+        "Type": 1,
+        "AssetName": "CS_Worlds14_Championship",
+        "Description": "Temporary Item Description. Here's some info about the 2014 world championships sleeve.",
+        "Cost": 1
+      },
+      {
+        "ID": "groudon_sleeve",
+        "Name": "Groudon Sleeve",
+        "Type": 1,
+        "AssetName": "CS_ETB_XY5_Groudon",
+        "Description": "Temporary Item Description. Here's some info about the groudon sleeve.",
+        "Cost": 2
+      },
+      {
+        "ID": "kyogre_sleeve",
+        "Name": "Kyogre Sleeve",
+        "Type": 1,
+        "AssetName": "CS_ETB_XY5_Kyogre",
+        "Description": "Temporary Item Description. Here's some info about the kyogre sleeve.",
+        "Cost": 12
+      },
+      {
+        "ID": "worlds14_attendee_sleeve",
+        "Name": "2014 World Championship Attendee Sleeve",
+        "Type": 1,
+        "AssetName": "CS_Worlds14_AttendeeKit",
+        "Description": "Temporary Item Description. Here's some info about the 2014 world championships attendee sleeve.",
+        "Cost": 3
+      },
+      {
+        "ID": "Lunala_sleeve",
+        "Name": "Lunala Sleeve",
+        "Type": 1,
+        "AssetName": "CS_ETB_SM1_Lunala",
+        "Description": "Temporary Item Description. Here's some info about the Lunala sleeve.",
+        "Cost": 1
+      },
+      {
+        "ID": "Solgaleo_sleeve",
+        "Name": "Solgaleo Sleeve",
+        "Type": 1,
+        "AssetName": "CS_ETB_SM1_Solgaleo",
+        "Description": "Temporary Item Description. Here's some info about the Solgaleo sleeve.",
+        "Cost": 1
+      },
+      {
+        "ID": "MewMewtwo_sleeve",
+        "Name": "Mew/Mewtwo Sleeve",
+        "Type": 1,
+        "AssetName": "CS_ETB_SM11_MewMewtwo",
+        "Description": "Temporary Item Description. Here's some info about the Mew/Mewtwo sleeve.",
+        "Cost": 1
+      },
+      {
+       "ID": "MoltresZapdosArticuno_sleeve",
+       "Name": "Legendary Birds Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM11_MoltresZapdosArticuno",
+       "Description": "Temporary Item Description. Here's some info about the Legendary Birds sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "ArceusDialgaPalkia_sleeve",
+       "Name": "Legendary Creators Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM12_ArceusDialgaPalkia",
+       "Description": "Temporary Item Description. Here's some info about the Legendary Creators sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "TapuKoko_sleeve",
+       "Name": "Tapu Koko Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM2_TapuKoko",
+       "Description": "Temporary Item Description. Here's some info about the Tapu Koko sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "Necrozma_sleeve",
+       "Name": "Necrozma Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM3_Necrozma",
+       "Description": "Temporary Item Description. Here's some info about the Necrozma sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "ShiningHoOh_sleeve",
+       "Name": "Shining Ho-Oh Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM3_ShiningHoOh",
+       "Description": "Temporary Item Description. Here's some info about the Shining Ho-Oh sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "Silvally_sleeve",
+       "Name": "Silvally Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM4_Silvally",
+       "Description": "Temporary Item Description. Here's some info about the Silvally sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "DawnWingsNecrozma_sleeve",
+       "Name": "Dawn Wings Necrozma Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM5_DawnWingsNecrozma",
+       "Description": "Temporary Item Description. Here's some info about the Dawn Wings Necrozma sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "DuskManeNecrozma_sleeve",
+       "Name": "Dusk Mane Necrozma Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM5_DuskManeNecrozma",
+       "Description": "Temporary Item Description. Here's some info about the Dusk Mane Necrozma sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "UltraNecrozma_sleeve",
+       "Name": "Ultra Necrozma Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM6_UltraNecrozma",
+       "Description": "Temporary Item Description. Here's some info about the Ultra Necrozma sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "Naganadel_sleeve",
+       "Name": "Naganadel Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM7_Naganadel",
+       "Description": "Temporary Item Description. Here's some info about the Naganadel sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "Rayquaza_sleeve",
+       "Name": "Raquaza Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM7_Rayquaza",
+       "Description": "Temporary Item Description. Here's some info about the Raquaza sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "Zeraora_sleeve",
+       "Name": "Zeraora Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM8_Zeraora",
+       "Description": "Temporary Item Description. Here's some info about the Zeraora sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "PikachuZekrom_sleeve",
+       "Name": "Pikachu/Zekrom Sleeve",
+       "Type": 1,
+       "AssetName": "CS_ETB_SM9_PikachuZekrom",
+       "Description": "Temporary Item Description. Here's some info about the Pikachu/Zekrom sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "BurningShadows_sleeve",
+       "Name": "Burning Shadows Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_BurningShadows",
+       "Description": "Temporary Item Description. Here's some info about the Burning Shadows sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "CelestialStorm_sleeve",
+       "Name": "Celestial Storm Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_CelestialStorm",
+       "Description": "Temporary Item Description. Here's some info about the Celestial Storm sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "CosmicEclipse_sleeve",
+       "Name": "Cosmic Eclipse Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_CosmicEclipse",
+       "Description": "Temporary Item Description. Here's some info about the Cosmic Eclipse sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "CrimsonInvasion_sleeve",
+       "Name": "Crimson Invasion Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_CrimsonInvasion",
+       "Description": "Temporary Item Description. Here's some info about the Crimson Invasion sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "ForbiddenLight_sleeve",
+       "Name": "Forbidden Light Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_ForbiddenLight",
+       "Description": "Temporary Item Description. Here's some info about the Forbidden Light sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "GuardiansRising_sleeve",
+       "Name": "Guardians Rising Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_GuardiansRising",
+       "Description": "Temporary Item Description. Here's some info about the Guardians Rising sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "LostThunder_sleeve",
+       "Name": "Lost Thunder Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_LostThunder",
+       "Description": "Temporary Item Description. Here's some info about the Lost Thunder sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "SunMoon_sleeve",
+       "Name": "Sun Moon Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_SunMoon",
+       "Description": "Temporary Item Description. Here's some info about the Sun Moon sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "TeamUp_sleeve",
+       "Name": "Team Up Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_TeamUp",
+       "Description": "Temporary Item Description. Here's some info about the Team Up sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "UltraPrism_sleeve",
+       "Name": "Ultra Prism Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_UltraPrism",
+       "Description": "Temporary Item Description. Here's some info about the Ultra Prism sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "UnbrokenBonds_sleeve",
+       "Name": "Unbroken Bonds Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_UnbrokenBonds",
+       "Description": "Temporary Item Description. Here's some info about the Unbroken Bonds sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "UnifiedMinds_sleeve",
+       "Name": "Unified Minds Sleeve",
+       "Type": 1,
+       "AssetName": "CS_LS3_League_UnifiedMinds",
+       "Description": "Temporary Item Description. Here's some info about the Unified Minds sleeve.",
+       "Cost": 1
+      },
+      {
+       "ID": "Bulbasaur_sleeve",
+       "Name": "TCGL Bulbasaur Sleeve",
+       "Type": 1,
+       "AssetName": "CS_TCGL_Bulbasaur",
+       "Description": "Temporary Item Description. Here's some info about the TCGL Bulbasaur sleeve.",
+       "Cost": 1
+      }
+    ],
+    [
+      {
+        "ID": "charpikamewtwo",
+        "Name": "Charizard/Pikachu/Mewtwo Coin",
+        "Type": 2,
+        "AssetName": "CN_CharizardPikachuMewtwo_SLVI",
+        "Description": "Temporary Item Description. Here's some info about the charizard/pikachu/mewtwo coin.",
+        "Cost": 1
+      },{
+        "ID": "charizard",
+        "Name": "Charizard Coin",
+        "Type": 2,
+        "AssetName": "CN_Charizard_ORGI",
+        "Description": "Temporary Item Description. Here's some info about the charizard coin.",
+        "Cost": 1
+      },
+      {
+      "ID": "kyogre_blu",
+      "Name": "Kyogre Spectrum Coin",
+      "Type": 2,
+      "AssetName": "CN_Kyogre_BLU",
+      "Description": "Temporary Item Description. Here's some info about the kyogre spectrum coin.",
+      "Cost": 1
+    },{
+      "ID": "kyogre_blui",
+      "Name": "Kyogre Ice Coin",
+      "Type": 2,
+      "AssetName": "CN_Kyogre_BLUI",
+      "Description": "Temporary Item Description. Here's some info about the kyogre ice coin.",
+      "Cost": 1
+    },{
+      "ID": "groudon_red",
+      "Name": "Groudon Spectrum Coin",
+      "Type": 2,
+      "AssetName": "CN_Groudon_RED",
+      "Description": "Temporary Item Description. Here's some info about the groudon spectrum coin.",
+      "Cost": 1
+    },{
+      "ID": "groudon_redi",
+      "Name": "Groudon Ice Coin",
+      "Type": 2,
+      "AssetName": "CN_Groudon_REDI",
+      "Description": "Temporary Item Description. Here's some info about the groudon ice coin.",
+      "Cost": 1
+    },
+    {
+      "ID": "xy_pikachu",
+      "Name": "XY Pikachu Coin",
+      "Type": 2,
+      "AssetName": "CN_PremiumTrainerPikachu_MTL",
+      "Description": "Temporary Item Description. Here's some info about the XY Pikachu Coin.",
+      "Cost": 1
+    },
+    {
+     "ID": "AccelgorEscavalier_coin",
+     "Name": "Accelgor/Escavalier Coin",
+     "Type": 2,
+     "AssetName": "CN_AccelgorEscavalier_SLV",
+     "Description": "Temporary Item Description. Here's some info about the Accelgor/Escavalier Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "ActionPikachu_coin",
+     "Name": "Action Pikachu Coin",
+     "Type": 2,
+     "AssetName": "CN_ActionPikachu_GLD",
+     "Description": "Temporary Item Description. Here's some info about the Action Pikachu Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "AlolanExeggutor_coin",
+     "Name": "Alolan Exeggutor Coin",
+     "Type": 2,
+     "AssetName": "CN_AlolanExeggutor_LGD",
+     "Description": "Temporary Item Description. Here's some info about the Alolan Exeggutor Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Blastoise_coin_ice",
+     "Name": "Blastoice Ice Coin",
+     "Type": 2,
+     "AssetName": "CN_Blastoise_BLUI",
+     "Description": "Temporary Item Description. Here's some info about the Blastoice Ice Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Blastoise_coin_gradient",
+     "Name": "Blastoise Gradient Coin",
+     "Type": 2,
+     "AssetName": "CN_Blastoise_BLU",
+     "Description": "Temporary Item Description. Here's some info about the Blastoise Gradient Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Deoxys_coin",
+     "Name": "Deoxys Coin",
+     "Type": 2,
+     "AssetName": "CN_Deoxys_SLVR",
+     "Description": "Temporary Item Description. Here's some info about the Deoxys Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "DialgaV2_coin",
+     "Name": "Dialga Coin",
+     "Type": 2,
+     "AssetName": "CN_DialgaV2_BLUI",
+     "Description": "Temporary Item Description. Here's some info about the Dialga Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Dragonite_coin",
+     "Name": "Dragonite Coin",
+     "Type": 2,
+     "AssetName": "CN_Dragonite_LOR",
+     "Description": "Temporary Item Description. Here's some info about the Dragonite Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Empoleon_coin",
+     "Name": "Empoleon Coin",
+     "Type": 2,
+     "AssetName": "CN_Empoleon_BLUR",
+     "Description": "Temporary Item Description. Here's some info about the Empoleon Coin.",
+     "Cost": 1
+    },
+	{
+     "ID": "Raikou_coin",
+     "Name": "Raikou Coin",
+     "Type": 2,
+     "AssetName": "CN_Raikou_LGD",
+     "Description": "Temporary Item Description. Here's some info about the Raikou Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Entei_coin",
+     "Name": "Entei Coin",
+     "Type": 2,
+     "AssetName": "CN_Entei_RED",
+     "Description": "Temporary Item Description. Here's some info about the Entei Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Garchomp_coin",
+     "Name": "Garchomp Coin",
+     "Type": 2,
+     "AssetName": "CN_Garchomp_GLD",
+     "Description": "Temporary Item Description. Here's some info about the Garchomp Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "HoOh_coin",
+     "Name": "Ho-Oh Coin",
+     "Type": 2,
+     "AssetName": "CN_HoOh_GLDI",
+     "Description": "Temporary Item Description. Here's some info about the Ho-Oh Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Hydreigon_coin",
+     "Name": "Hydreigon Coin",
+     "Type": 2,
+     "AssetName": "CN_Hydreigon_DSV",
+     "Description": "Temporary Item Description. Here's some info about the Hydreigon Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Kommoo_coin",
+     "Name": "Kommo-o Coin",
+     "Type": 2,
+     "AssetName": "CN_Kommoo_GLD",
+     "Description": "Temporary Item Description. Here's some info about the Kommo-o Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Litten_coin",
+     "Name": "Litten Coin",
+     "Type": 2,
+     "AssetName": "CN_Litten_RED",
+     "Description": "Temporary Item Description. Here's some info about the Litten Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Lucario_coin_blu",
+     "Name": "Blue Lucario Coin",
+     "Type": 2,
+     "AssetName": "CN_Lucario_BLU",
+     "Description": "Temporary Item Description. Here's some info about the Blue Lucario Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Lucario_coin_lbl",
+     "Name": "LBL Lucario Coin",
+     "Type": 2,
+     "AssetName": "CN_Lucario_LBL",
+     "Description": "Temporary Item Description. Here's some info about the LBL Lucario Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Lugia_coin",
+     "Name": "Lugia Coin",
+     "Type": 2,
+     "AssetName": "CN_Lugia_SLVI",
+     "Description": "Temporary Item Description. Here's some info about the Lugia Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Lunala_coin",
+     "Name": "Lunala Coin",
+     "Type": 2,
+     "AssetName": "CN_Lunala_PRP",
+     "Description": "Temporary Item Description. Here's some info about the Lunala Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "LycanrocDusk_coin",
+     "Name": "Lycanroc Dusk Coin",
+     "Type": 2,
+     "AssetName": "CN_LycanrocDusk_LGD",
+     "Description": "Temporary Item Description. Here's some info about the Lycanroc Dusk Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "LycanrocMidday_coin",
+     "Name": "Lycanroc Midday Coin",
+     "Type": 2,
+     "AssetName": "CN_LycanrocMidday_BRNG",
+     "Description": "Temporary Item Description. Here's some info about the Lycanroc Midday Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Mewtwo_coin",
+     "Name": "Mewtwo Coin",
+     "Type": 2,
+     "AssetName": "CN_Mewtwo_LPR",
+     "Description": "Temporary Item Description. Here's some info about the Mewtwo Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Necrozma_coin",
+     "Name": "Necrozma Coin",
+     "Type": 2,
+     "AssetName": "CN_Necrozma_DSVR",
+     "Description": "Temporary Item Description. Here's some info about the Necrozma Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "PalkiaV2_coin",
+     "Name": "Palkia Coin",
+     "Type": 2,
+     "AssetName": "CN_PalkiaV2_PNKI",
+     "Description": "Temporary Item Description. Here's some info about the Palkia Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Popplio_coin",
+     "Name": "Popplio Coin",
+     "Type": 2,
+     "AssetName": "CN_Popplio_BLUI",
+     "Description": "Temporary Item Description. Here's some info about the Popplio Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Raichu_coin",
+     "Name": "Raichu Coin",
+     "Type": 2,
+     "AssetName": "CN_Raichu_GLDP",
+     "Description": "Temporary Item Description. Here's some info about the Raichu Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "ReshiramZekrom_coin",
+     "Name": "Reshiram/Zekrom Coin",
+     "Type": 2,
+     "AssetName": "CN_ReshiramZekrom_COP",
+     "Description": "Temporary Item Description. Here's some info about the Reshiram/Zekrom Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Rowlet_coin_GRNI",
+     "Name": "Green Ice Rowlet Coin",
+     "Type": 2,
+     "AssetName": "CN_Rowlet_GRNI",
+     "Description": "Temporary Item Description. Here's some info about the Green Ice Rowlet Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Rowlet_coin_GRNR",
+     "Name": "Spectrum Rowlet Coin",
+     "Type": 2,
+     "AssetName": "CN_Rowlet_GRNR",
+     "Description": "Temporary Item Description. Here's some info about the Green Spectrum Rowlet Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Salamence_coin",
+     "Name": "Salamence Coin",
+     "Type": 2,
+     "AssetName": "CN_Salamence_GLD",
+     "Description": "Temporary Item Description. Here's some info about the Salamence Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Sceptile_coin",
+     "Name": "Sceptile Coin",
+     "Type": 2,
+     "AssetName": "CN_Sceptile_GRNR",
+     "Description": "Temporary Item Description. Here's some info about the Sceptile Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "ShayminLand_coin",
+     "Name": "Shaymin Land Coin",
+     "Type": 2,
+     "AssetName": "CN_ShayminLand_GRNR",
+     "Description": "Temporary Item Description. Here's some info about the Shaymin Land Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "SinnohPartners_coin",
+     "Name": "Sinnoh Partners Coin",
+     "Type": 2,
+     "AssetName": "CN_SinnohPartners_GLD",
+     "Description": "Temporary Item Description. Here's some info about the Sinnoh Partners Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Solgaleo_coin",
+     "Name": "Solgaleo Coin",
+     "Type": 2,
+     "AssetName": "CN_Solgaleo_ORG",
+     "Description": "Temporary Item Description. Here's some info about the Solgaleo Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Swampert_coin",
+     "Name": "Swampert Coin",
+     "Type": 2,
+     "AssetName": "CN_Swampert_BLUR",
+     "Description": "Temporary Item Description. Here's some info about the Swampert Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "TCGLBulbasaur_coin",
+     "Name": "TCGL Bulbasaur Coin",
+     "Type": 2,
+     "AssetName": "CN_TCGLBulbasaur_MTL",
+     "Description": "Temporary Item Description. Here's some info about the TCGL Bulbasaur Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Victini_coin",
+     "Name": "Victini Coin",
+     "Type": 2,
+     "AssetName": "CN_Victini_REDS",
+     "Description": "Temporary Item Description. Here's some info about the Victini Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "WhiteKyurem_coin",
+     "Name": "White Kyurem Coin",
+     "Type": 2,
+     "AssetName": "CN_WhiteKyurem_GLD",
+     "Description": "Temporary Item Description. Here's some info about the White Kyurem Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Xerneas_coin_BLU",
+     "Name": "Blue Xerneas Coin",
+     "Type": 2,
+     "AssetName": "CN_Xerneas_BLU",
+     "Description": "Temporary Item Description. Here's some info about the Blue Xerneas Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Xerneas_coin_LBL",
+     "Name": "LBL Xerneas Coin",
+     "Type": 2,
+     "AssetName": "CN_Xerneas_LBL",
+     "Description": "Temporary Item Description. Here's some info about the LBL Xerneas Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Zeraora_coin",
+     "Name": "Zeraora Coin",
+     "Type": 2,
+     "AssetName": "CN_Zeraora_LGD",
+     "Description": "Temporary Item Description. Here's some info about the Zeraora Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Zoroark_coin_DSV",
+     "Name": "DSV Zoroark Coin",
+     "Type": 2,
+     "AssetName": "CN_Zoroark_DSV",
+     "Description": "Temporary Item Description. Here's some info about the DSV Zoroark Coin.",
+     "Cost": 1
+    },
+    {
+     "ID": "Zoroark_coin_SLVI",
+     "Name": "SLVI Zoroark Coin",
+     "Type": 2,
+     "AssetName": "CN_Zoroark_SLVI",
+     "Description": "Temporary Item Description. Here's some info about the SLVI Zoroark Coin.",
+     "Cost": 1
+    }
+    ]
+  ]
+}
